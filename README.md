@@ -53,7 +53,7 @@ install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap", "stringr", "caret")
 
 We enclosed the results as an open source web application using R and Shiny in order to facilitate the interactive analysis of the results.
 
-![alt text](https://github.com/cafernandezlo/MLMicrobiomeT1D/blob/master/MLMetaGenomics.png?raw=true)
+![alt text](https://github.com/cafernandezlo/MLMicrobiomeT1D/blob/master/MLMicrobiomeT1D.png?raw=true)
 
 ## Shiny. Prerequisites:
 
@@ -74,7 +74,7 @@ In order to use the Docker image please ensure that you have installed the follo
 
 * [Docker](https://docs.docker.com/get-docker/)
 
-Follow the instructions on Docker Hub ir order to generate de Docker image and run it on your local system.
+Follow the instructions on Docker Hub in order to generate de Docker image and run it on your local system.
 
 # Questions?
 If you have any questions, please feel free to contact us!

@@ -3,7 +3,7 @@
 
 ui <- dashboardPagePlus(skin = "blue",
                         dashboardHeaderPlus( title = tagList(
-                          span(class = "logo-lg", "MLMetaGenomics"), 
+                          span(class = "logo-lg", "MLMicrobiomeT1D"), 
                           img(src = "algoritmo.svg", width="35",height="35"))),
                         
                         
@@ -279,12 +279,17 @@ ui <- dashboardPagePlus(skin = "blue",
                                     In the fourth section, a multimodal analysis of the model that had obtained the best performance and a review of the species used by it ('Metagenomic signature') was carried out.
                                     In the last section it is shown that the metagenomic signature obtained also with the best model is also capable of discerning between a third stage between healthy and sick called 'seroconversion'.", align= "justify"),
                                     h4("Code"),
-                                    "The code used in the project is available on the",a(href= "https://github.com/DiegoFE94/MLMetaGenomics", "GitHub."),
+                                    "The code used in the project (machine learning and shiny) is available on the",a(href= "https://github.com/cafernandezlo/MLMicrobiomeT1D", "GitHub."),
                                     br(),
-                                    "The code of this Shiny is available on the ",a(href= "https://github.com/DiegoFE94/ShinyMLMetagenomics", "GitHub."),
-                                    h4("Data source"),
-                                    p("The data were taken from the",a(href= "https://diabimmune.broadinstitute.org/diabimmune/t1d-cohort", "Diabinmune"),"project, which consists of a public database of faecal metagenomic
+                                    h4("Data"),
+                                    p("The data used in this work was downloaded from the",a(href= "https://diabimmune.broadinstitute.org/diabimmune/t1d-cohort", "Diabinmune"),"project, which consists of a public database of faecal metagenomic
                                       profiles from sequencing of the 16S rRNA region. The dataset includes 124 faecal samples with the metagenomic profile of infants",align = "justify"),
+                                    p("This project, financed by the European Union through the H2020 initiative in 2016, was set up with the aim of testing the hygiene hypothesis and its role 
+                                      in the development of T1D. For this study, the T1D cohort was used, which aims to compare the microbiome of infants who have developed T1D with healthy 
+                                      controls from the same geographical area. Fecal samples were extracted from each individual and ribosomal 16S RNA sequencing was performed to characterize 
+                                      the metagenomic profile. For this study, data on the relative abundance of each operative taxonomic unit (OTU) of the different infants that make up the 
+                                      cohort were downloaded. The samples have been labelled according to patients and T1D controls. In total, 124 samples have been included for analysis, from a 
+                                      total of 33 infants.",align="justify"),
                                     h4("Authors"),
                                     widgetUserBox(
                                       title = "Diego Fernández",
@@ -344,8 +349,8 @@ ui <- dashboardPagePlus(skin = "blue",
                                   ),
                                   br(),
                                   br(),
-                                  h4("Contacto"),
-                                  "diego.fedreira@udc.es",
+                                  h4("Contact"),
+                                  "Please feel free to contact us!",
                                   br(),
                                   a(img(src = "kk.png"),href="https://www.udc.es/es/" )
                             
