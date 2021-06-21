@@ -1,6 +1,6 @@
 # Machine Learning analysis of the human infant gut microbiome identifies influential species in type 1 diabetes
 
-![alt text](https://github.com/cafernandezlo/MLMicrobiomeT1D/blob/main/GraphicalAbstract.png)
+![alt text](https://github.com/cafernandezlo/MLMicrobiomeT1D/blob/master/GraphicalAbstract.png?raw=true)
 
 ## Citation
 
@@ -53,7 +53,7 @@ install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap", "stringr", "caret")
 
 We enclosed the results as an open source web application using R and Shiny in order to facilitate the interactive analysis of the results.
 
-![alt text](https://github.com/cafernandezlo/MLMicrobiomeT1D/blob/main/MLMetaGenomics.png)
+![alt text](https://github.com/cafernandezlo/MLMicrobiomeT1D/blob/master/MLMetaGenomics.png?raw=true)
 
 ## Shiny. Prerequisites:
 
