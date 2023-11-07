@@ -4,12 +4,26 @@
 
 ## Citation
 
-*Fernández-Edreira, D., Liñares Blanco J., Fernandez-Lozano C. (2021) Machine Learning analysis of the human infant gut microbiome identifies influential species in type 1 diabetes (under review)*
+*Machine learning analysis of the human infant gut microbiome identifies influential species in type 1 diabetes
+Fernández-Edreira, D., Liñares-Blanco, J., and Fernandez-Lozano, C.
+Expert Systems with Applications 2021 . [Q1, D1, 8/87 OR-MS, 21/145 CS-AI, 8.665 IF]*
 
-DOI: 
+DOI: http://dx.doi.org/10.1016/j.eswa.2021.115648
 
 ```tex
-bibtex pending
+@ARTICLE{experSytems2021,
+title={Machine learning analysis of the human infant gut microbiome identifies influential species >
+ISSN={0957-4174},
+doi={10.1016/j.eswa.2021.115648},
+number={115648},
+journal={Expert Systems with Applications},
+publisher={Elsevier},
+author={Fernández-Edreira, D. and Liñares-Blanco, J. and Fernandez-Lozano, C.},
+year={2021},
+month={Jul},
+pages={13},
+note={Q1, <strong>D1</strong>, 8/87 OR-MS, 21/145 CS-AI, 8.665 IF}
+}
 ```
 
 ## Data
